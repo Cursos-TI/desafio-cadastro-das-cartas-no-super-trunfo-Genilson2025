@@ -8,8 +8,8 @@ int main() {
    char estado01[50] , estado02[50];
    char codigo01[50] , codigo02[50];
    char cidade01[50] , cidade02[50];
-   int populacao01 , populacao02;
-   float pib01 , pib02; densidadepopulacional01 , densidade populacional02;
+   int populacao01 , populacao02;       //INSERINDO NOVAS VARIAVEIS .
+   float pib01 , pib02 , densidadepopulacional01 , densidadepopulacional02; 
    float area01 , area02 , pibpercapita01 , pibpercapita02;
    int pontosturisticos01 , pontosturisticos02;
 
@@ -58,7 +58,7 @@ int main() {
  
     printf("Numero de pontos turistico: ");
     scanf("%d" , &pontosturisticos02);
-
+    //COLOCANDO OS VALORES NAS NOVAS VARIAVEIS.
        densidadepopulacional01 = (float) populacao01 / area01;
        pibpercapita01 = (float) pib01 / populacao01;
        densidadepopulacional02 = (float) populacao02 / area02;
@@ -68,11 +68,11 @@ int main() {
 
      //imprimindo carta de numero 01 e 02.
 
-    printf("Carta01: \n Estado: %s\n Código da carta: %s\n Nome da cidade: %s\n População: %d\n Àrea: %f Km\n Pib: %f bilhões de reais\n Pontos turisticos: %d\n  Densidade Populacional: %fhab/km²\n PIB per Capita: %f\n"
-       , estado01 , codigo01 , cidade01 , populacao01 , area01 , pib01 , pontosturisticos01 ,densidadepopulacional1 , pibpercapita01);
+    printf("Carta01: \n Estado: %s\n Código da carta: %s\n Nome da cidade: %s\n População: %d\n Àrea: %f Km\n Pib: %f bilhões de reais\n Pontos turisticos: %d\n Densidade Populacional: %f hab/km²\n PIB per Capita: %f reais\n"
+       , estado01 , codigo01 , cidade01 , populacao01 , area01 , pib01 , pontosturisticos01 ,densidadepopulacional01 , pibpercapita01);
 
 
-    printf("Carta02: \n Estado: %s\n Código da carta: %s\n Nome da cidade: %s\n População: %d\n Àrea: %f Km\n Pib: %f bilhões de reais\n Pontos turisticos: %d\n Densidade Populacional: %fha/km²\n PIB per Capita: %f\n" 
+    printf("Carta02: \n Estado: %s\n Código da carta: %s\n Nome da cidade: %s\n População: %d\n Àrea: %f Km\n Pib: %f bilhões de reais\n Pontos turisticos: %d\n Densidade Populacional: %f ha/km²\n PIB per Capita: %f reais\n" 
     , estado02 , codigo02 , cidade02 , pontosturisticos02 , area02 , pib02 , pontosturisticos02 ,densidadepopulacional02 , pibpercapita02);
 
 return 0;

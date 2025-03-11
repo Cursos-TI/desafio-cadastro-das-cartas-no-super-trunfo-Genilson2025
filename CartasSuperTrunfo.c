@@ -9,8 +9,8 @@ int main() {
    char codigo01[50] , codigo02[50];
    char cidade01[50] , cidade02[50];
    int populacao01 , populacao02;
-   float pib01 , pib02;
-   float area01 , area02;
+   float pib01 , pib02; densidadepopulacional01 , densidade populacional02;
+   float area01 , area02 , pibpercapita01 , pibpercapita02;
    int pontosturisticos01 , pontosturisticos02;
 
      //solicitar informações de carta de numero 1.
@@ -58,6 +58,12 @@ int main() {
  
     printf("Numero de pontos turistico: ");
     scanf("%d" , &pontosturisticos02);
+
+       densidadepopulacional01 = (float) populacao01 / area01;
+       pibpercapita01 = (float) pib01 / populacao01;
+       densidadepopulacional02 = (float) populacao02 / area02;
+       pibpercapita02 = (float) pib02 / populacao02;
+       
   
 
      //imprimindo carta de numero 01 e 02.

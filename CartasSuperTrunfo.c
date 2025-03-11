@@ -68,10 +68,12 @@ int main() {
 
      //imprimindo carta de numero 01 e 02.
 
-    printf("Carta01: \n Estado: %s\n Código da carta: %s\n Nome da cidade: %s\n População: %d\n Àrea: %f Km\n Pib: %f bilhões de reais\n Pontos turisticos: %d\n" , estado01 , codigo01 , cidade01 , populacao01 , area01 , pib01 , pontosturisticos01 );
+    printf("Carta01: \n Estado: %s\n Código da carta: %s\n Nome da cidade: %s\n População: %d\n Àrea: %f Km\n Pib: %f bilhões de reais\n Pontos turisticos: %d\n  Densidade Populacional: %fhab/km²\n PIB per Capita: %f\n"
+       , estado01 , codigo01 , cidade01 , populacao01 , area01 , pib01 , pontosturisticos01 ,densidadepopulacional1 , pibpercapita01);
 
 
-    printf("Carta02: \n Estado: %s\n Código da carta: %s\n Nome da cidade: %s\n População: %d\n Àrea: %f Km\n Pib: %f bilhões de reais\n Pontos turisticos: %d\n" , estado02 , codigo02 , cidade02 , pontosturisticos02 , area02 , pib02 , pontosturisticos02);
+    printf("Carta02: \n Estado: %s\n Código da carta: %s\n Nome da cidade: %s\n População: %d\n Àrea: %f Km\n Pib: %f bilhões de reais\n Pontos turisticos: %d\n Densidade Populacional: %fha/km²\n PIB per Capita: %f\n" 
+    , estado02 , codigo02 , cidade02 , pontosturisticos02 , area02 , pib02 , pontosturisticos02 ,densidadepopulacional02 , pibpercapita02);
 
 return 0;
 

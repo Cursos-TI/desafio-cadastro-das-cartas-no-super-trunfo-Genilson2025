@@ -9,7 +9,7 @@ int main() {
    char codigo01[50] , codigo02[50];
    char cidade01[50] , cidade02[50];
    int populacao01 , populacao02;
-   float pib01 , pib02; densidadepopulacional01 , densidade populacional02;
+   float pib01 , pib02 , densidadepopulacional01 , densidadepopulacional02;
    float area01 , area02 , pibpercapita01 , pibpercapita02;
    int pontosturisticos01 , pontosturisticos02;
 
@@ -68,10 +68,12 @@ int main() {
 
      //imprimindo carta de numero 01 e 02.
 
-    printf("Carta01: \n Estado: %s\n Código da carta: %s\n Nome da cidade: %s\n População: %d\n Àrea: %f Km\n Pib: %f bilhões de reais\n Pontos turisticos: %d\n" , estado01 , codigo01 , cidade01 , populacao01 , area01 , pib01 , pontosturisticos01 );
+    printf("Carta01: \n Estado: %s\n Código da carta: %s\n Nome da cidade: %s\n População: %d\n Àrea: %f Km\n Pib: %f bilhões de reais\n Pontos turisticos: %d\n Densidade Populacional: %.2f hab/km²\n Pib per Capita: %.2f reais\n"
+       , estado01 , codigo01 , cidade01 , populacao01 , area01 , pib01 , pontosturisticos01 , densidadepopulacional01 , pibpercapita01 );
 
 
-    printf("Carta02: \n Estado: %s\n Código da carta: %s\n Nome da cidade: %s\n População: %d\n Àrea: %f Km\n Pib: %f bilhões de reais\n Pontos turisticos: %d\n" , estado02 , codigo02 , cidade02 , pontosturisticos02 , area02 , pib02 , pontosturisticos02);
+    printf("Carta02: \n Estado: %s\n Código da carta: %s\n Nome da cidade: %s\n População: %d\n Àrea: %f Km\n Pib: %f bilhões de reais\n Pontos turisticos: %d\n Densidade Populacional: %.2f hab/km²\n Pib per Capita: %.2f reais\n"
+       , estado02 , codigo02 , cidade02 , pontosturisticos02 , area02 , pib02 , pontosturisticos02 , densidadepopulacional02 , pibpercapita02);
 
 return 0;
 

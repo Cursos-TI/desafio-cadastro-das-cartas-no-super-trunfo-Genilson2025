@@ -87,7 +87,7 @@ int main() {
 
 
     printf("Carta02: \n Estado: %s\n Código da carta: %s\n Nome da cidade: %s\n População: %ld\n Àrea: %f Km²\nPib: %f bilhões de reais\n Pontos turisticos: %d\n Densidade Populacional: %.2f ha/km²\n PIB per Capita: %.2f\n Super Poder: %.2f\n"
-       , estado02 , codigo02 , cidade02 , pontosturisticos02 , area02 , pib02 , pontosturisticos02 , densidadepopulacional2 , pibpercapita2 , superpoder02);
+       , estado02 , codigo02 , cidade02 , populacao02 , pontosturisticos02 , area02 , pib02 , pontosturisticos02 , densidadepopulacional2 , pibpercapita2 , superpoder02);
 
        //Exibindo os resultado das comparações.
 
